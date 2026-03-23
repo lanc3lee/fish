@@ -9,8 +9,8 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GuppySG: "https://guppysg.com",
-      SG Fish Telegram Community: "https://t.me/singaporefish",
-      Facebook Group: "https://www.facebook.com/groups/2422433788198100"
+      "SG Fish Telegram Community": "https://t.me/singaporefish",
+      Facebook: "https://www.facebook.com/groups/2422433788198100"
     },
   }),
 }
