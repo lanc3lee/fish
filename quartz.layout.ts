@@ -8,8 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GuppySG: "https://guppysg.com",
+      SG Fish Telegram Community: "https://t.me/singaporefish",
+      Facebook Group: "https://www.facebook.com/groups/2422433788198100"
     },
   }),
 }
@@ -22,7 +23,6 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
